@@ -1,0 +1,22 @@
+It is a multicast chat server implemented using JAVA.This can be used to chat with mutiple clients over a LAN.You just need to run server program over one computer in a LAN.Other computers just need to run client programs which can automatically scan over the network(Manual address can be provided by the client) for server and clients can login and chat with others.
+
+Before Executing program:
+
+* Keep labels folder in same directory from where you are running your program.
+* Install jdk before excuting program.
+* Make sure that network connection is successfully established with other machines,check by pinging other machines.
+* This program won't work over internet.
+
+
+Running the program:
+
+* using terminal(Linux\MAC) or Command prompt(Windows) navigate to folder where files are placed.
+* type following commands for compiling:
+       javac server.java
+       javac client.java
+
+* for running server type:
+      java server
+
+* for running client type following commands:
+      java client
